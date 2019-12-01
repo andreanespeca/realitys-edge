@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="eae6-2d7e-8143-ab97" name="Operatives" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="4090-0e5d-5d00-3316" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="ae6b-636d-b416-9d8a" name="asdasdad" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="5fc4-8929-48e4-62f9" name="asdasdad" hidden="false" typeId="b699-028c-6ce5-5c8d" typeName="Character">
+          <characteristics>
+            <characteristic name="DEF" typeId="b352-bc2d-727c-b3c4">1</characteristic>
+            <characteristic name="HP" typeId="f03d-69ba-a0fb-c3ab">25</characteristic>
+            <characteristic name="FW" typeId="7ada-4783-871e-513d">5</characteristic>
+            <characteristic name="MOV" typeId="c58e-c15c-41be-c204">5</characteristic>
+            <characteristic name="MEL" typeId="a600-bdd0-eac8-275b">4</characteristic>
+            <characteristic name="AIM" typeId="3be7-ed1d-9a2f-8831"/>
+            <characteristic name="STR" typeId="beb7-ea79-d5ab-7654"/>
+            <characteristic name="MET" typeId="54b7-3ef6-31f4-6f66">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="756c-d519-038a-4f46" name="Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="9956-26d5-1b64-2ffa" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99ab-6b8a-06f4-b57e" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="b627-4cb6-af81-d1dd" name="Bludgeon" hidden="false" collective="false" import="true" targetId="b248-640b-30da-a770" type="selectionEntry"/>
+            <entryLink id="0848-8c6d-d59b-ebb8" name="Collapsible Stave*" hidden="false" collective="false" import="true" targetId="f535-ac07-434f-04c7" type="selectionEntry"/>
+            <entryLink id="04fd-6aa2-7fa8-4b4b" name="Combat Hatchet" hidden="false" collective="false" import="true" targetId="9702-0635-2fc3-f618" type="selectionEntry"/>
+            <entryLink id="cdff-d47e-a042-26dc" name="Cyber-Strike" hidden="false" collective="false" import="true" targetId="d4ec-70a7-a49a-2768" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="CC" typeId="7020-086d-de7b-0019" value="50.0"/>
+        <cost name="Slots" typeId="9956-26d5-1b64-2ffa" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+</catalogue>
